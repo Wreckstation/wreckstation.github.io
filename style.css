@@ -1,0 +1,50 @@
+:root {
+    --dark-brown:rgba(50,20,10,80);
+    --lighter-brown:rgb(211 148 110);
+}
+
+body {
+        background-color:  rgb(196 236 196);
+    font-family: "Verdana";
+    color:var(--dark-brown);
+    overflow:auto;
+}
+
+.main-body {
+    text-align:center;
+    margin: -10px auto;
+    height: auto;
+    padding: 10px 25px 10px 25px;
+    background-color:white;
+    border-style:solid dashed;
+    border-color: white var(--lighter-brown);
+    min-width:350px;
+    max-width:60vw;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display:inline-block;
+    border-radius:5px;
+}
+
+.didyouknow {
+    background-color:rgb(250,230,200);
+    border-radius:1em;
+    padding:1em 2em;
+    margin:1em auto;
+}
+
+.didyouknow > h2 {
+    text-align:left;
+    color: rgb(50,20,10);
+    transform:rotate(-5deg);
+    margin:-2% 0px 25px -5px;
+}
+
+.didyouknow > .pbody {
+    padding: 0em 1em;
+    color:rgba(50,20,10,70);
+    text-align:left;
+}
